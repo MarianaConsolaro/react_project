@@ -9,6 +9,8 @@ const AnotherComponent = () => {
       <div>
         <p>Segundo Componente</p>
         <button onClick={handleClick}>Evento de clique</button>
+        <hr />
+        <button onClick={() => console.log("teste")}>Evento no Elemento</button>
       </div>
     );
   };
