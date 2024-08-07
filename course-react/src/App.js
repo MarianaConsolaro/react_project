@@ -1,5 +1,6 @@
 
 import './App.css';
+import AnotherComponent from './components/AnotherComponent';
 
 import FirstComponent from './components/FirstComponent';
 
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <h1>Hello World React</h1>
       <FirstComponent/>
+      <AnotherComponent />
     </div>
   );
 }
