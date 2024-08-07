@@ -1,8 +1,7 @@
 
-
 function FirstComponent() {
   return (
-    <div>
+    <div className="firstcomponent">
       <p>Primeiro Componente</p>
     </div>
   );
