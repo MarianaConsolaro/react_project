@@ -5,6 +5,7 @@ import AnotherComponent from './components/AnotherComponent';
 import FirstComponent from './components/FirstComponent';
 import Hanger from './components/Hanger';
 import Images from './components/Images';
+import List from './components/List';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AnotherComponent />
       <Images />
       <Hanger />
+      <List />
     </div>
   );
 }
