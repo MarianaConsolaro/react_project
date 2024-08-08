@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Hanger = () => {
 
@@ -13,6 +13,10 @@ const Hanger = () => {
     const changeNewAge = () => {
         setNovaIdade(45);
     }
+
+    useEffect(() => {
+        console.log("Testando!");
+    })
 
     return (
         <div>
