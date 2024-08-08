@@ -3,6 +3,7 @@
 import './App.css'; 
 
 import AnotherComponent from './components/AnotherComponent';
+import Container from './components/Container';
 import FirstComponent from './components/FirstComponent';
 import Fragment from './components/Fragment';
 import Hanger from './components/Hanger';
@@ -21,6 +22,9 @@ function App() {
       <List />
       <RenderCond x={8} y={10}/>
       <Fragment />
+      <Container>
+        <h1>Este é filho do container</h1>
+      </Container>
     </div>
   );
 }
