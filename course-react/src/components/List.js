@@ -13,7 +13,7 @@ const List = () => {
 
     return <div>
         {items.map((item) => (
-            <p>
+            <p key={item.id}>
                 {item.id} - {item.name}
             </p>
         ))}
