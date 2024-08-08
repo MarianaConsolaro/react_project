@@ -1,8 +1,10 @@
 
+
 import './App.css'; 
 
 import AnotherComponent from './components/AnotherComponent';
 import FirstComponent from './components/FirstComponent';
+import Fragment from './components/Fragment';
 import Hanger from './components/Hanger';
 import Images from './components/Images';
 import List from './components/List';
@@ -18,6 +20,7 @@ function App() {
       <Hanger />
       <List />
       <RenderCond x={8} y={10}/>
+      <Fragment />
     </div>
   );
 }
